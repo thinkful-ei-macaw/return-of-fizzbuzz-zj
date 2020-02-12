@@ -1,6 +1,6 @@
 // your code here
 $(function(){
-    $('number-chooser').submit( event => {
+    $('#number-chooser').submit( event => {
         event.preventDefault();
 
         $(".js-results").empty();
